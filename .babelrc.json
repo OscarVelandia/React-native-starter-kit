@@ -1,0 +1,19 @@
+{
+  "plugins": [
+    "@babel/plugin-transform-runtime",
+    [
+      "module-resolver",
+      {
+        "root": ["./src"],
+        "extensions": [".tsx"],
+        "alias": {
+          "_assets": "./src/assets",
+          "_components": "./src/components",
+          "_navigations": "./src/navigations",
+          "_styles": "./src/styles",
+          "_utils": "./src/utils"
+        }
+      }
+    ]
+  ]
+}
