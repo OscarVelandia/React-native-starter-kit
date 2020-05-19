@@ -33,7 +33,6 @@
     "@typescript-eslint/parser": "^2.33.0",
     "babel-plugin-module-resolver": "^4.0.0",
     "eslint": "^7.0.0",
-    "eslint-config-airbnb-typescript": "^7.2.1",
     "eslint-config-prettier": "^6.11.0",
     "eslint-config-universe": "^3.0.0",
     "eslint-import-resolver-babel-module": "^5.1.2",
