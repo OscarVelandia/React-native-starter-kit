@@ -1,0 +1,47 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "@react-native-community",
+    "eslint:recommended",
+    "prettier",
+    "prettier/@typescript-eslint",
+    "prettier/react",
+    "universe/native",
+    "universe/shared/typescript-analysis",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:react-native-a11y/all",
+    "plugin:react-native/all"
+  ],
+  "plugins": ["@typescript-eslint", "import", "react", "react-native"],
+  //used for "universe/shared/typescript-analysis",
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx", "*.d.ts"],
+      "parserOptions": {
+        "ecmaFeatures": {
+          "jsx": true
+        },
+        "ecmaVersion": 2020,
+        "project": "./tsconfig.json",
+        "sourceType": "module"
+      }
+    }
+  ],
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["src"],
+        "alias": {
+          "_assets": "./src/assets",
+          "_components": "./src/components",
+          "_navigations": "./src/navigations",
+          "_styles": "./src/styles",
+          "_utils": "./src/utils"
+        }
+      }
+    }
+  }
+}

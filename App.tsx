@@ -1,6 +1,17 @@
 import React from 'react';
 import {StyleSheet, Text, View, ScrollView} from 'react-native';
 
+const white = '#fff';
+
+const styles = StyleSheet.create({
+  container: {
+    alignItems: 'center',
+    backgroundColor: white,
+    flex: 1,
+    justifyContent: 'center',
+  },
+});
+
 export default function App(): JSX.Element {
   return (
     <ScrollView>
@@ -11,12 +22,3 @@ export default function App(): JSX.Element {
     </ScrollView>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
