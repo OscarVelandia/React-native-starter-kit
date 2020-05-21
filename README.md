@@ -1,4 +1,4 @@
-## Expo React-native starter
+# Expo React-native starter
 
 This config takes as base the bare expo typescript template from [create react native app](https://github.com/expo/create-react-native-app), but has some differences like:
 
@@ -23,3 +23,17 @@ src
 ├── styles
 └── utils
 ```
+
+## How to run the project
+* With `yarn start` you init the expo server, and the expo dev tools will be open in the browser in `http://localhost:19002/`
+
+## Opening the project
+You can open the project on Android studio emulator or in your phone:
+
+### Open in android studio emulator
+* In the **dev tools** you will find a button with the text **Run on Android device/emulator** if you click on it, the android emulator will be open.
+
+### Open the project in your phone
+1. Install the (expo app)[https://play.google.com/store/apps/details?id=host.exp.exponent] from the google app store
+2. In the **dev tools** you will find a *QR code*, scan it with the cellphone.
+3. The app will be running in your cellphone.
