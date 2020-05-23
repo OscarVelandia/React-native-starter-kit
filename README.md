@@ -1,6 +1,6 @@
 # Expo React-native starter
 
-This config takes as base the bare expo typescript template from [create react native app](https://github.com/expo/create-react-native-app), but has some differences like:
+This config takes as base the **Expo managed workflow** template typescript template from [create react native app](https://github.com/expo/create-react-native-app), but has some differences like:
 
 * Typescript is on 3.9.2 version
 * Was added React-navigation
