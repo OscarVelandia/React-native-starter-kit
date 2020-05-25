@@ -20,6 +20,7 @@ src
 ├── assets
 ├── components
 ├── navigations
+├── screens
 ├── styles
 └── utils
 ```
