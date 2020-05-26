@@ -14,12 +14,11 @@ This config takes as base the **Expo managed workflow** template typescript temp
   *  react-native-a11y
   *  config-universe
   *  import-resolver
-* A opinionated folder structure in *src* folder
+* An opinionated folder structure in *src* 
 ```bash
 src
 ├── assets
 ├── components
-├── navigations
 ├── screens
 ├── styles
 └── utils
