@@ -3,7 +3,6 @@
   "parser": "@typescript-eslint/parser",
   "extends": [
     "@react-native-community",
-    "eslint:recommended",
     "prettier",
     "prettier/@typescript-eslint",
     "prettier/react",
@@ -16,6 +15,9 @@
     "plugin:react-native/all"
   ],
   "plugins": ["@typescript-eslint", "import", "react", "react-native"],
+  "rules": {
+    "@typescript-eslint/no-use-before-define": ["error", { "variables": false }]
+  },
   //used for "universe/shared/typescript-analysis",
   "overrides": [
     {
