@@ -39,7 +39,6 @@
         "alias": {
           "_assets": "./src/assets",
           "_components": "./src/components",
-          "_navigations": "./src/navigations",
           "_screens/*": "./src/screens",
           "_styles": "./src/styles",
           "_utils": "./src/utils"

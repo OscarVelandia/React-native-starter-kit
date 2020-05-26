@@ -40,7 +40,6 @@
     "paths": {
       "_assets/*": ["assets/*"],
       "_components/*": ["components/*"],
-      "_navigations/*": ["navigations/*"],
       "_screens/*": ["screens/*"],
       "_styles/*": ["styles/*"],
       "_utils/*": ["utils/*"]
