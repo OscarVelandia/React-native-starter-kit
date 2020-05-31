@@ -3,7 +3,7 @@
 This config takes as base the **Expo managed workflow** template typescript template from [create react native app](https://github.com/expo/create-react-native-app), but has some differences like:
 
 * Typescript is on 3.9.2 version
-* Was added React-navigation
+* Was added React-navigation and their main dependencies without version errors
 * Was configured *husky* for git hooks with *pretty-quick* and *lint-staged*
 * Prettier has a base configuration
 * The *tsconfig.json* has all options (as it comes by default) with path configuration to use with the import-resolver eslint plugin and configuration set in the `.eslintrc` file
